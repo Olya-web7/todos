@@ -12,27 +12,32 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   margin: 0;
+  padding: 20px;
 }
 
 h1 {
-  color: rgb(22, 24, 133);
-  font-size: 7rem;
+  color: rgb(54, 55, 109);
+  font-size: 5rem;
   text-align: center;
   opacity: 0.4;
+  padding: 10px;
+  margin: 10px;
+
 }
 
 form {
   box-shadow: 0 4px 12px rgba(15, 3, 43, 0.1);
   max-width: 100%;
   width: 400px;
+  padding: 5px;
 }
 
 .input {
   border: none;
   color: #444;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem 2rem;
   display: block;
   width: 100%;
@@ -43,7 +48,7 @@ form {
 }
 
 .input:focus {
-  outline-color: rgb(179, 131, 226);
+  outline-color: rgb(41, 67, 155);
 }
 
 .todos {
